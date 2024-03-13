@@ -16,8 +16,6 @@ import java.text.SimpleDateFormat;
  * month, and year values cannot be changed.
  */
 
-
-
 public class Date {
   private final int day;
   private final int month;
@@ -28,6 +26,8 @@ public class Date {
   {
     System.out.println("Method added by the owner Mario");
   }
+  
+  private int fieldAddedByCollaborator;
   /**
    * Retrieves the day component of this date.
    *
