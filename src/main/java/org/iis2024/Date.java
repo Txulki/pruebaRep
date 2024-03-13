@@ -21,7 +21,7 @@ public class Date {
   private final int month;
   private final int year;
 
-
+  private int nicolaiPirela;
   public void methodAddedByOwner()
   {
     System.out.println("Method added by the owner Mario");
